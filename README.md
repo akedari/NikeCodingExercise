@@ -8,6 +8,11 @@ A RESTful microservice that implements a card shuffling algorithms
 - apache-tomcat-7.0.77
 - Make sure apache-tomcat-7.0.77 server is up and running on your system
 
+# Strategy (config.properties)
+- You can set either random or handshuffle strategy, you can sent then by entering either of following entry in config.properties file
+  - shufflingStrategy=random
+  - shufflingStrategy=handshuffle
+
 # How To Test Application?
 - Download the cardshuffling folder and save on your local drive
 - open terminal and navigate to location */cardshuffling
